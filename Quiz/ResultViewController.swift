@@ -9,7 +9,11 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    
     var correctAnswer:Int = 0
+    
+    //正解時に表示される本文
+    var message: String = ""
 
     @IBOutlet var resultLabel: UILabel!
 
@@ -17,10 +21,9 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        resultLabel.text = "\(correctAnswer)"
-        //resultLabel.text = "\(message)"
+        //resultLabel.text = "\(correctAnswer)"
         
-       /* if correctAnswer >= 6{
+        if correctAnswer >= 6{
             message = "あなたは「火影レベル」です。すごい！"
         }else if correctAnswer >= 4{
             message = "あなたは「上忍レベル」です"
@@ -28,8 +31,11 @@ class ResultViewController: UIViewController {
             message = "あなたは「中忍レベル」です"
         }else{
             message = "あなたは「下忍レベル」です"
-        }*/
-    }
+        }
+ 
+        resultLabel.text = "正解数は..." + "\(String(correctAnswer))" + "\(message)"
+        
+           }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

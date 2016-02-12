@@ -15,6 +15,8 @@ class QuizViewController: UIViewController {
     //正解数
     var correctAnswer:Int = 0
     
+    
+    
     //クイズを表示するTextView
     @IBOutlet var quizTextView: UITextView!
     
