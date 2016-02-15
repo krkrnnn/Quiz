@@ -25,6 +25,9 @@ class QuizViewController: UIViewController {
     @IBOutlet var choiceButtons2: UIButton!
     @IBOutlet var choiceButtons3: UIButton!
     
+    //正解を表示するラベル
+    @IBOutlet var answerLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,11 +36,10 @@ class QuizViewController: UIViewController {
         //------------------------ここから下にクイズを書く------------------------//
         tmpArray.append(["一般的な猫の前足の指は何本？","4","5","6",2])
         tmpArray.append(["一般的な猫の後ろ足の指は何本？","4","5","6",3])
-        tmpArray.append(["猫の下の感触は？","ザラザラ","フニフニ","ヌメヌメ",1])
+        tmpArray.append(["猫の舌の感触は？","ザラザラ","フニフニ","ヌメヌメ",1])
         tmpArray.append(["室内飼育の猫の平均寿命は？","約５歳","約１５歳","約２５歳",2])
         tmpArray.append(["三毛猫にオスが生まれる頻度は？","300頭に1匹","3000頭に1匹","30000頭に1匹",3])
         tmpArray.append(["一般的な猫の睡眠時間は？","約5時間","約10時間","約15時間",3])
-        tmpArray.append(["一般的な猫の前足の指は何本？","4","5","6",2])
         tmpArray.append(["猫の歯は全部で何本？","20","30","40",2])
         tmpArray.append(["猫の五感で一番優れているのはどこ？","聴覚","視覚","嗅覚",1])
         tmpArray.append(["猫の鳴き声を英語で表現すると？","ニー","ニャンニャン","ミャオ",3])
@@ -65,6 +67,41 @@ class QuizViewController: UIViewController {
         if quizArray[0][4] as! Int == sender.tag {
             //正解数を増やす
             correctAnswer++
+            
+            
+            answerLabel.backgroundColor = UIColor.redColor()
+            answerLabel.text = "正解！"
+            
+            /*let alertController = UIAlertController(
+                title: "正解！",
+                message: "",
+                preferredStyle: .Alert
+            )
+            alertController.addAction(UIAlertAction(
+                title: "次の問題へ",
+                style: .Default,
+                handler: nil
+                )
+            )
+            
+            self.presentViewController(alertController, animated: true, completion: nil)*/
+        }else  {
+            
+            answerLabel.backgroundColor = UIColor.blueColor()
+            answerLabel.text = "不正解！"
+            /*let alert = UIAlertController(
+                title: "不正解",
+                message: "",
+                preferredStyle: .Alert
+            )
+            alert.addAction(UIAlertAction(
+                title: "正解は",
+                style: .Default,
+                handler: nil
+                )
+            )*/
+            
+
         }
         
         quizArray.removeAtIndex(0)
@@ -75,6 +112,7 @@ class QuizViewController: UIViewController {
             choiceQuiz()
         }
     }
+    
     
     func performSegueToResult() {
         performSegueWithIdentifier("toResultView", sender: nil)
@@ -87,6 +125,8 @@ class QuizViewController: UIViewController {
             resultView.correctAnswer = self.correctAnswer
         }
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
