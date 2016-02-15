@@ -10,6 +10,7 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
+    //正解数
     var correctAnswer:Int = 0
     
     //正解時に表示される本文
@@ -24,18 +25,19 @@ class ResultViewController: UIViewController {
         //resultLabel.text = "\(correctAnswer)"
         
         if correctAnswer >= 6{
-            message = "あなたは「火影レベル」です。すごい！"
+            message = "あなたは愛猫家ですね！すごい！"
         }else if correctAnswer >= 4{
-            message = "あなたは「上忍レベル」です"
+            message = "あなたはなかなかの愛猫家です"
         }else if correctAnswer >= 3{
-            message = "あなたは「中忍レベル」です"
+            message = "あなたはぼちぼちの愛猫家です"
         }else{
-            message = "あなたは「下忍レベル」です"
+            message = "あなたはまだまだの愛猫家です"
         }
  
-        resultLabel.text = "正解数は..." + "\(String(correctAnswer))" + "\(message)"
+        resultLabel.numberOfLines = 2
+        resultLabel.text = "正解数は..." + "\(String(correctAnswer))" + "\n" + "\(message)"
         
-           }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
