@@ -27,6 +27,7 @@ class QuizViewController: UIViewController {
     
     //正解を表示するラベル
     @IBOutlet var answerLabel: UILabel!
+    @IBOutlet var correctAnswerLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +44,8 @@ class QuizViewController: UIViewController {
         tmpArray.append(["猫の歯は全部で何本？","20","30","40",2])
         tmpArray.append(["猫の五感で一番優れているのはどこ？","聴覚","視覚","嗅覚",1])
         tmpArray.append(["猫の鳴き声を英語で表現すると？","ニー","ニャンニャン","ミャオ",3])
+        tmpArray.append(["猫は男女どちらになつきやすい？","男性","女性","どちらでもない",2])
+
                 //------------------------ここから上にクイズを書く------------------------//
         
         // 問題をシャッフルしてquizArrayに格納する
@@ -65,6 +68,8 @@ class QuizViewController: UIViewController {
     
     @IBAction func choiceAnswer(sender: UIButton) {
         if quizArray[0][4] as! Int == sender.tag {
+            
+            
             //正解数を増やす
             correctAnswer++
             
@@ -89,6 +94,7 @@ class QuizViewController: UIViewController {
             
             answerLabel.backgroundColor = UIColor.blueColor()
             answerLabel.text = "不正解！"
+
             /*let alert = UIAlertController(
                 title: "不正解",
                 message: "",

@@ -24,18 +24,19 @@ class ResultViewController: UIViewController {
         // Do any additional setup after loading the view.
         //resultLabel.text = "\(correctAnswer)"
         
-        if correctAnswer >= 6{
+        if correctAnswer >= 10{
             message = "あなたは愛猫家ですね！すごい！"
-        }else if correctAnswer >= 4{
+        }else if correctAnswer >= 7{
             message = "あなたはなかなかの愛猫家です"
-        }else if correctAnswer >= 3{
+        }else if correctAnswer >= 5{
             message = "あなたはぼちぼちの愛猫家です"
         }else{
             message = "あなたはまだまだの愛猫家です"
         }
  
         resultLabel.numberOfLines = 2
-        resultLabel.text = "正解数は..." + "\(String(correctAnswer))" + "\n" + "\(message)"
+        resultLabel.font = UIFont.systemFontOfSize(CGFloat(20))
+        resultLabel.text = "正解数は..." + "\(String(correctAnswer))" + "問 / 10問中" + "\n" + "\(message)"
         
     }
 

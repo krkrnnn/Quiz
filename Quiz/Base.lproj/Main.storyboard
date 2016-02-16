@@ -33,13 +33,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="猫好きクイズ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sL8-ZN-vPH">
-                                <rect key="frame" x="33" y="48" width="255" height="52"/>
+                                <rect key="frame" x="12" y="48" width="255" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fsb-FG-LFD">
                                 <rect key="frame" x="63" y="294" width="194" height="158"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fish2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mF2-Iz-dWz">
+                                <rect key="frame" x="224" y="32" width="83" height="84"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.85653198612048942" blue="0.94529990867839531" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,7 +66,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRD-48-CKy">
-                                <rect key="frame" x="63" y="469" width="195" height="50"/>
+                                <rect key="frame" x="62" y="438" width="195" height="50"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -79,7 +82,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kki-U3-jv0">
-                                <rect key="frame" x="62" y="332" width="196" height="54"/>
+                                <rect key="frame" x="65" y="308" width="196" height="54"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -95,7 +98,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7F-Li-K3q">
-                                <rect key="frame" x="66" y="401" width="189" height="60"/>
+                                <rect key="frame" x="65" y="370" width="189" height="60"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -104,6 +107,12 @@
                                     <action selector="choiceAnswer:" destination="BUj-kM-nEE" eventType="touchUpInside" id="hmj-H8-6f7"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fish2.png" translatesAutoresizingMaskIntoConstraints="NO" id="bql-fI-Ojq">
+                                <rect key="frame" x="207" y="232" width="85" height="92"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fish2.png" translatesAutoresizingMaskIntoConstraints="NO" id="cNM-eG-aJu">
+                                <rect key="frame" x="14" y="458" width="97" height="90"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.85653198610000003" blue="0.94529990870000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -165,6 +174,7 @@
     </scenes>
     <resources>
         <image name="cat.png" width="150" height="150"/>
+        <image name="fish2.png" width="128" height="128"/>
         <image name="start.png" width="309" height="126"/>
     </resources>
 </document>
