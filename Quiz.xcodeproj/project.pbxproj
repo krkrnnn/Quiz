@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94826C9F1C7C2AAA003DE190 /* 猫アプリStartボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 94826C9E1C7C2AAA003DE190 /* 猫アプリStartボタン.png */; };
+		94D562E71C79735B00CAADFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D562E41C79735B00CAADFA /* Default-568h@2x.png */; };
+		94D562E81C79735B00CAADFA /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D562E51C79735B00CAADFA /* Default-667h@2x.png */; };
+		94D562E91C79735B00CAADFA /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D562E61C79735B00CAADFA /* Default-736h@3x.png */; };
 		94E619A81C6487BC009825B8 /* naruto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E619A71C6487BC009825B8 /* naruto.jpg */; };
 		94E619AA1C6489CB009825B8 /* menma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E619A91C6489CB009825B8 /* menma.jpg */; };
+		94ECB33F1C8725DB00989BCE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 94ECB3381C8725DA00989BCE /* .gitignore */; };
+		94ECB3401C8725DB00989BCE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 94ECB3381C8725DA00989BCE /* .gitignore */; };
+		94ECB3411C8725DB00989BCE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ECB33A1C8725DA00989BCE /* Default-568h@2x.png */; };
+		94ECB3421C8725DB00989BCE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ECB33A1C8725DA00989BCE /* Default-568h@2x.png */; };
+		94ECB3431C8725DB00989BCE /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ECB33B1C8725DA00989BCE /* Default-667h@2x.png */; };
+		94ECB3441C8725DB00989BCE /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ECB33B1C8725DA00989BCE /* Default-667h@2x.png */; };
+		94ECB3451C8725DB00989BCE /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ECB33C1C8725DA00989BCE /* Default-736h@3x.png */; };
+		94ECB3461C8725DB00989BCE /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ECB33C1C8725DA00989BCE /* Default-736h@3x.png */; };
+		94ECB3471C8725DB00989BCE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 94ECB33D1C8725DA00989BCE /* README.md */; };
+		94ECB3481C8725DB00989BCE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 94ECB33D1C8725DA00989BCE /* README.md */; };
+		94ECB3491C8725DB00989BCE /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECB33E1C8725DB00989BCE /* StoryboardHelper.swift */; };
+		94ECB34A1C8725DB00989BCE /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECB33E1C8725DB00989BCE /* StoryboardHelper.swift */; };
 		94F0E9251C71E73F0047712F /* fish3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94F0E9241C71E73F0047712F /* fish3.jpg */; };
 		94F0E9271C71E7A00047712F /* fish2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F0E9261C71E7A00047712F /* fish2.png */; };
 		94F0E9291C71F4E70047712F /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F0E9281C71F4E70047712F /* cat.png */; };
@@ -42,7 +58,6 @@
 		C7343EA11A89986900D857EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7343EA01A89986900D857EA /* AppDelegate.swift */; };
 		C7343EA61A89986900D857EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA41A89986900D857EA /* Main.storyboard */; };
 		C7343EA81A89986900D857EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA71A89986900D857EA /* Images.xcassets */; };
-		C7343EAB1A89986900D857EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA91A89986900D857EA /* LaunchScreen.xib */; };
 		C7343EB71A89986900D857EA /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7343EB61A89986900D857EA /* QuizTests.swift */; };
 		C7343EC11A89997C00D857EA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7343EC01A89997C00D857EA /* QuizViewController.swift */; };
 		C7FE4DE01A8A17B9004C530A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FE4DDF1A8A17B9004C530A /* ResultViewController.swift */; };
@@ -59,8 +74,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94826C9E1C7C2AAA003DE190 /* 猫アプリStartボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猫アプリStartボタン.png"; sourceTree = "<group>"; };
+		94D562E41C79735B00CAADFA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		94D562E51C79735B00CAADFA /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		94D562E61C79735B00CAADFA /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		94E619A71C6487BC009825B8 /* naruto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naruto.jpg; sourceTree = "<group>"; };
 		94E619A91C6489CB009825B8 /* menma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menma.jpg; sourceTree = "<group>"; };
+		94ECB3381C8725DA00989BCE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		94ECB33A1C8725DA00989BCE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		94ECB33B1C8725DA00989BCE /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		94ECB33C1C8725DA00989BCE /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		94ECB33D1C8725DA00989BCE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		94ECB33E1C8725DB00989BCE /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
 		94F0E9241C71E73F0047712F /* fish3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish3.jpg; sourceTree = "<group>"; };
 		94F0E9261C71E7A00047712F /* fish2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish2.png; sourceTree = "<group>"; };
 		94F0E9281C71F4E70047712F /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
@@ -96,7 +121,6 @@
 		C7343EA01A89986900D857EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7343EA51A89986900D857EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7343EA71A89986900D857EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C7343EAA1A89986900D857EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7343EB01A89986900D857EA /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7343EB51A89986900D857EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7343EB61A89986900D857EA /* QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTests.swift; sourceTree = "<group>"; };
@@ -122,6 +146,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94D562E31C79735B00CAADFA /* Defaults-master */ = {
+			isa = PBXGroup;
+			children = (
+				94D562E41C79735B00CAADFA /* Default-568h@2x.png */,
+				94D562E51C79735B00CAADFA /* Default-667h@2x.png */,
+				94D562E61C79735B00CAADFA /* Default-736h@3x.png */,
+			);
+			path = "Defaults-master";
+			sourceTree = "<group>";
+		};
+		94ECB3371C8725DA00989BCE /* StoryboardHelper-master */ = {
+			isa = PBXGroup;
+			children = (
+				94ECB3381C8725DA00989BCE /* .gitignore */,
+				94ECB3391C8725DA00989BCE /* Defaults */,
+				94ECB33D1C8725DA00989BCE /* README.md */,
+				94ECB33E1C8725DB00989BCE /* StoryboardHelper.swift */,
+			);
+			path = "StoryboardHelper-master";
+			sourceTree = "<group>";
+		};
+		94ECB3391C8725DA00989BCE /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				94ECB33A1C8725DA00989BCE /* Default-568h@2x.png */,
+				94ECB33B1C8725DA00989BCE /* Default-667h@2x.png */,
+				94ECB33C1C8725DA00989BCE /* Default-736h@3x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
 		94F0E92A1C71F6A40047712F /* ios */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,18 +254,20 @@
 		C7343E9D1A89986900D857EA /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				94ECB3371C8725DA00989BCE /* StoryboardHelper-master */,
+				94826C9E1C7C2AAA003DE190 /* 猫アプリStartボタン.png */,
 				94F0E92A1C71F6A40047712F /* ios */,
 				94F0E9241C71E73F0047712F /* fish3.jpg */,
 				94F0E9261C71E7A00047712F /* fish2.png */,
 				94F0E9281C71F4E70047712F /* cat.png */,
 				94E619A91C6489CB009825B8 /* menma.jpg */,
 				94E619A71C6487BC009825B8 /* naruto.jpg */,
+				94D562E31C79735B00CAADFA /* Defaults-master */,
 				C7343EA01A89986900D857EA /* AppDelegate.swift */,
 				C7343EC01A89997C00D857EA /* QuizViewController.swift */,
 				C7FE4DDF1A8A17B9004C530A /* ResultViewController.swift */,
 				C7343EA41A89986900D857EA /* Main.storyboard */,
 				C7343EA71A89986900D857EA /* Images.xcassets */,
-				C7343EA91A89986900D857EA /* LaunchScreen.xib */,
 				B101ABF51B53796200919FB9 /* images */,
 				C7343E9E1A89986900D857EA /* Supporting Files */,
 			);
@@ -293,7 +350,7 @@
 				TargetAttributes = {
 					C7343E9A1A89986900D857EA = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = DU3RMKUVKM;
+						DevelopmentTeam = DPGRYX2L7P;
 					};
 					C7343EAF1A89986900D857EA = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -338,8 +395,8 @@
 				94F0E94B1C71F6A40047712F /* Icon-Small.png in Resources */,
 				B101ABFA1B53797400919FB9 /* start.png in Resources */,
 				94E619AA1C6489CB009825B8 /* menma.jpg in Resources */,
+				94ECB3411C8725DB00989BCE /* Default-568h@2x.png in Resources */,
 				94F0E9431C71F6A40047712F /* Icon-40.png in Resources */,
-				C7343EAB1A89986900D857EA /* LaunchScreen.xib in Resources */,
 				C7343EA81A89986900D857EA /* Images.xcassets in Resources */,
 				94F0E9561C71F6A40047712F /* iTunesArtwork@2x.png in Resources */,
 				94F0E9541C71F6A40047712F /* Icon@2x.png in Resources */,
@@ -350,16 +407,23 @@
 				94F0E9251C71E73F0047712F /* fish3.jpg in Resources */,
 				94F0E9501C71F6A40047712F /* Icon-72@2x.png in Resources */,
 				AF223C461A8C6B9100E3B3B9 /* Default-736h@3x.png in Resources */,
+				94ECB3431C8725DB00989BCE /* Default-667h@2x.png in Resources */,
+				94D562E81C79735B00CAADFA /* Default-667h@2x.png in Resources */,
 				94F0E9491C71F6A40047712F /* Icon-76@2x.png in Resources */,
 				94F0E9471C71F6A40047712F /* Icon-60@3x.png in Resources */,
 				94F0E94A1C71F6A40047712F /* Icon-83.5@2x.png in Resources */,
+				94D562E91C79735B00CAADFA /* Default-736h@3x.png in Resources */,
 				94F0E9481C71F6A40047712F /* Icon-76.png in Resources */,
+				94D562E71C79735B00CAADFA /* Default-568h@2x.png in Resources */,
+				94826C9F1C7C2AAA003DE190 /* 猫アプリStartボタン.png in Resources */,
 				94F0E9291C71F4E70047712F /* cat.png in Resources */,
 				94F0E9461C71F6A40047712F /* Icon-60@2x.png in Resources */,
 				94F0E9521C71F6A40047712F /* Icon-Small-50@2x.png in Resources */,
 				94F0E9511C71F6A40047712F /* Icon-Small-50.png in Resources */,
 				94F0E94C1C71F6A40047712F /* Icon-Small@2x.png in Resources */,
+				94ECB33F1C8725DB00989BCE /* .gitignore in Resources */,
 				B101ABF91B53797400919FB9 /* false.png in Resources */,
+				94ECB3451C8725DB00989BCE /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +431,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94ECB3401C8725DB00989BCE /* .gitignore in Resources */,
+				94ECB3441C8725DB00989BCE /* Default-667h@2x.png in Resources */,
+				94ECB3421C8725DB00989BCE /* Default-568h@2x.png in Resources */,
+				94ECB3461C8725DB00989BCE /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +447,8 @@
 			files = (
 				C7343EA11A89986900D857EA /* AppDelegate.swift in Sources */,
 				C7343EC11A89997C00D857EA /* QuizViewController.swift in Sources */,
+				94ECB3471C8725DB00989BCE /* README.md in Sources */,
+				94ECB3491C8725DB00989BCE /* StoryboardHelper.swift in Sources */,
 				C7FE4DE01A8A17B9004C530A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +457,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94ECB34A1C8725DB00989BCE /* StoryboardHelper.swift in Sources */,
+				94ECB3481C8725DB00989BCE /* README.md in Sources */,
 				C7343EB71A89986900D857EA /* QuizTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,14 +480,6 @@
 				C7343EA51A89986900D857EA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C7343EA91A89986900D857EA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7343EAA1A89986900D857EA /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -507,7 +571,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.karuna.Quiz;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.cats.karuna.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -522,7 +586,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.karuna.Quiz;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.cats.karuna.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
